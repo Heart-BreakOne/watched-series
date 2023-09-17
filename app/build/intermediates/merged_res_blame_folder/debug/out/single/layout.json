@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/linharecyclerview.xml",
+        "source": "/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/res/layout/linharecyclerview.xml"
+    },
+    {
+        "merged": "/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_novoitem.xml",
+        "source": "/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/res/layout/fragment_novoitem.xml"
+    }
+]

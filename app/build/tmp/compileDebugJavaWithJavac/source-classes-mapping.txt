@@ -1,0 +1,18 @@
+com/mobiusone/github/io/seriesassistidas/databinding/LinharecyclerviewBinding.java
+ com.mobiusone.github.io.seriesassistidas.databinding.LinharecyclerviewBinding
+com/mobiusone/github/io/seriesassistidas/databinding/ActivityMainBinding.java
+ com.mobiusone.github.io.seriesassistidas.databinding.ActivityMainBinding
+com/mobiusone/github/io/seriesassistidas/AppDatabase_Impl.java
+ com.mobiusone.github.io.seriesassistidas.AppDatabase_Impl
+ com.mobiusone.github.io.seriesassistidas.AppDatabase_Impl$1
+com/mobiusone/github/io/seriesassistidas/Dao_Impl.java
+ com.mobiusone.github.io.seriesassistidas.Dao_Impl
+ com.mobiusone.github.io.seriesassistidas.Dao_Impl$1
+ com.mobiusone.github.io.seriesassistidas.Dao_Impl$2
+ com.mobiusone.github.io.seriesassistidas.Dao_Impl$3
+com/mobiusone/github/io/seriesassistidas/Incluir.java
+ com.mobiusone.github.io.seriesassistidas.Incluir
+com/mobiusone/github/io/seriesassistidas/BuildConfig.java
+ com.mobiusone.github.io.seriesassistidas.BuildConfig
+com/mobiusone/github/io/seriesassistidas/databinding/FragmentNovoitemBinding.java
+ com.mobiusone.github.io.seriesassistidas.databinding.FragmentNovoitemBinding

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15sp">
+
+    <TextView
+        android:id="@+id/tvNovaSerie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_marginTop="20dp"
+        android:text="@string/add_nova"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/nome_serie"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNovaSerie" />
+
+    <EditText
+        android:id="@+id/edtNomeSerie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/digite_nome"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNome"
+        />
+
+    <TextView
+        android:id="@+id/tvServico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/nome_stream"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNomeSerie" />
+
+    <EditText
+        android:id="@+id/edtNomeServico"
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/digite_stream"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvServico" />
+
+    <ImageView
+        android:id="@+id/ivAdiciona"
+        android:layout_width="72dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ivCancela"
+        app:layout_constraintStart_toEndOf="@+id/ivLimpa"
+        app:layout_constraintTop_toBottomOf="@+id/edtNomeServico"
+        app:srcCompat="@drawable/new_icon"
+        tools:src="@drawable/new_icon"
+        tools:srcCompat="@drawable/new_icon"
+        android:contentDescription="@string/adiciona" />
+
+    <ImageView
+        android:id="@+id/ivCancela"
+        android:layout_width="45dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/cancel_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNomeServico"
+        app:srcCompat="@drawable/cancel_icon"
+        android:contentDescription="@string/cancela" />
+
+    <ImageView
+        android:id="@+id/ivLimpa"
+        android:layout_width="45dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/erase_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNomeServico"
+        app:srcCompat="@drawable/erase_icon"
+        android:contentDescription="@string/limpa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

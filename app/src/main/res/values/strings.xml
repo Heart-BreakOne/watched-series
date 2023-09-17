@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Suas séries</string>
+    <string name="nova_serie">Nova série</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="add_nova">ADICIONE UMA NOVA SÉRIE</string>
+    <string name="nome_serie">NOME DA SÉRIE:</string>
+    <string name="digite_nome">Digite o nome da série</string>
+    <string name="nome_stream">ONDE A SÉRIE ESTÁ DISPONÍVEL:</string>
+    <string name="digite_stream">Nome do serviço de streaming</string>
+    <string name="adiciona">BOTÃO DE MAIS PARA ADICIONAR UMA NOVA SÉRIE NA LISTA</string>
+    <string name="limpa">BOTÃO DE LIMPAR PARA LIMPAR O NOME DA SÉRIE E SERVIÇO DE STREAM</string>
+    <string name="cancela">BOTÃO DE CANCELAR PARA VOLTAR A LISTA DE SÉRIES SEM ADICIONAR UMA SÉRIE NOVA</string>
+
+</resources>

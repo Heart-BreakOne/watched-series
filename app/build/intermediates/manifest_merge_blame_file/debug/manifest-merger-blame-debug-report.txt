@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mobiusone.github.io.seriesassistidas"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:6:5-28:19
+12        android:allowBackup="true"
+12-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /Users/leon/.gradle/caches/transforms-3/ff3a61bb8d068ad301ca46a3de77c66e/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.SeriesAssistidas" >
+20-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:12:9-54
+21        <activity
+21-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:13:9-18:43
+22            android:name="com.mobiusone.github.io.seriesassistidas.menu"
+22-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:14:13-33
+23            android:exported="false"
+23-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:15:13-37
+24            android:label="@string/title_activity_menu"
+24-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:16:13-56
+25            android:theme="@style/Theme.SeriesAssistidas.NoActionBar" />
+25-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:17:13-70
+26        <activity
+26-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:19:9-27:20
+27            android:name="com.mobiusone.github.io.seriesassistidas.MainActivity"
+27-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:20:13-41
+28            android:exported="true" >
+28-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:21:13-36
+29            <intent-filter>
+29-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:23:17-69
+30-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:25:17-77
+32-->/Users/leon/AndroidStudioProjects/SeriesAssistidas/app/src/main/AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <service
+36-->[androidx.room:room-runtime:2.3.0] /Users/leon/.gradle/caches/transforms-3/a82164d3c7ac85098e048f83b9d681d6/transformed/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+37            android:name="androidx.room.MultiInstanceInvalidationService"
+37-->[androidx.room:room-runtime:2.3.0] /Users/leon/.gradle/caches/transforms-3/a82164d3c7ac85098e048f83b9d681d6/transformed/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+38            android:directBootAware="true"
+38-->[androidx.room:room-runtime:2.3.0] /Users/leon/.gradle/caches/transforms-3/a82164d3c7ac85098e048f83b9d681d6/transformed/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+39            android:exported="false" />
+39-->[androidx.room:room-runtime:2.3.0] /Users/leon/.gradle/caches/transforms-3/a82164d3c7ac85098e048f83b9d681d6/transformed/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+40    </application>
+41
+42</manifest>
